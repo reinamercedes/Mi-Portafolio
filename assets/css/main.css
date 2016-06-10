@@ -2829,6 +2829,7 @@
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
 				color: #ffffff;
+				text-align: center;
 			}
 
 			.wrapper.style3 hr {
