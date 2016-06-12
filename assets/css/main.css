@@ -1,13 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
+	
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1645,8 +1638,10 @@
 			}
 
 		header.major p {
-			color: #fff;
-			top: 0;
+			color: #c7ebe8;
+    			font-family: "Poiret One";
+    			font-weight: 900;
+    			font-size: 1.3em;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1895,6 +1890,7 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+			color: #00F0FF;
 		}
 
 		.icon > .label {
@@ -2653,12 +2649,14 @@
 		}
 
 		.wrapper.style1 {
-			background-image: url("../../images/IMAGES PORTFOLIO/desktop.jpg");
+			background-attachment: fixed;
+			background-image: url("../../images/IMAGES PORTFOLIO/mess.jpg");
 			background-size: 91%;
     			background-position: 45% 52%;
     			background-blend-mode: color;
-    			background-color: rgba(0, 0, 0, 0.8);
+    			background-color: rgba(0, 0, 0, 0.3);
 			color: #c7ebe8;
+			border: 20px solid black;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2686,11 +2684,14 @@
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.55);
+				border-color: #ffffff;
 			}
 
 			.wrapper.style1 header.major p {
 				color: #c7ebe8;
+				font-family: "Poiret One";
+    				font-weight: 900;
+    				font-size: 1.3em;
 			}
 
 			.wrapper.style1 label {
@@ -2746,15 +2747,15 @@
 			}
 
 			.wrapper.style1 .icon.major {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: #ffffff;
 			}
 
 			.wrapper.style1 ul.alt li {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: #ffffff;
 			}
 
 			.wrapper.style1 table tbody tr {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: #ffffff;
 			}
 
 				.wrapper.style1 table tbody tr:nth-child(2n + 1) {
@@ -2811,16 +2812,25 @@
 			}
 
 		.wrapper.style2 {
-			background-image: url("../../images/IMAGES PORTFOLIO/night.jpg");
-			background-size: 123%;
+			background-image: url("../../images/IMAGES PORTFOLIO/mess.jpg");
+			background-size: 91%;
+    			background-position: 45% 52%;
+    			background-blend-mode: color;
+    			background-color: rgba(0, 0, 0, 0.8);
+			color: #c7ebe8;
+			border: 20px solid black;
+			background-attachment: fixed;
 		}
 
 		.wrapper.style3 {
-			background-image: url("../../images/IMAGES PORTFOLIO/bouncefav.gif");
-			background-position: 109% 105%;
+			background-attachment: fixed;
+			background-image: url("../../images/IMAGES PORTFOLIO/mess.jpg");
+			background-size: 91%;
+    			background-position: 45% 52%;
     			background-blend-mode: color;
-    			background-color: rgba(0, 0, 0, 0.8);
-			color: #d3d4e4;
+    			background-color: rgba(0, 0, 0, 0.6);
+			color: #c7ebe8;
+			border: 20px solid black;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -2849,11 +2859,14 @@
 			}
 
 			.wrapper.style3 header.major h2, .wrapper.style3 header.major h3, .wrapper.style3 header.major h4, .wrapper.style3 header.major h5, .wrapper.style3 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: #ffffff;
 			}
 
 			.wrapper.style3 header.major p {
-				color: #d3d4e4;
+				color: #c7ebe8;
+    				font-family: "Poiret One";
+    				font-weight: 900;
+    				font-size: 1.3em;
 			}
 
 			.wrapper.style3 label {
@@ -3266,6 +3279,7 @@
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
 		transform: translateX(0);
+		background-image: url("../../images/acuarela3.jpg")
 	}
 
 /* Header */
@@ -3275,7 +3289,7 @@
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: rgba(46, 56, 66, 0.37);
+		background-image: url("../../images/acuarela3.jpg");
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3418,6 +3432,13 @@
 	}
 
 		#banner h2 {
+			font-family: "Rochester";
+			text-transform: capitalize;
+			letter-spacing: normal;
+			font-size: 5em!important;
+    			font-weight: 100;
+    			padding: 0% 3%!important;
+    			margin-bottom: 3%!important;
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
@@ -3462,8 +3483,9 @@
 			}
 
 		#banner p {
-			letter-spacing: 0.225em;
+			letter-spacing: 1em;
 			text-transform: uppercase;
+			font-family: "Poiret One";
 		}
 
 			#banner p a {
@@ -3471,6 +3493,10 @@
 			}
 
 		#banner .more {
+			font-family: "Poiret One";
+    			text-transform: capitalize;
+    			letter-spacing: 0.5em;
+    			font-size: 14px;
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
@@ -3486,17 +3512,14 @@
 			border: none;
 			bottom: 0;
 			color: inherit;
-			font-size: 0.8em;
 			height: 8.5em;
 			left: 50%;
-			letter-spacing: 0.225em;
 			margin-left: -8.5em;
 			opacity: 1;
 			outline: 0;
 			padding-left: 0.225em;
 			position: absolute;
 			text-align: center;
-			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
 		}
@@ -3530,7 +3553,8 @@
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background-image: url("../../images/IMAGES PORTFOLIO/bounce.gif");
+			background-size: 10%;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3756,9 +3780,15 @@
 			}
 
 				#footer .copyright li:first-child {
+					color: white;
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
+					font-family: "Poiret One";
+    					font-size: 2em;
+    					text-transform: uppercase;
+    					letter-spacing: 0.3em;
+    					font-weight: 100;
 				}
 
 				#footer .copyright li a {
@@ -3800,10 +3830,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/degrad6.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/degrad6.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/degrad6.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/degrad6.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/girlaptop.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/girlaptop.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/girlaptop.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/girlaptop.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3837,7 +3867,18 @@
 	/*mine*/
 
 	h2.phrase {
-		font-family: "Raleway";
-		text-align: center;
-		font-size: 2em;
+		font-family: "Poiret One";
+    		font-size: 2em;
+    		text-transform: uppercase;
+    		letter-spacing: 0.3em;
+    		font-weight: 100;
 	}
+
+/*menu responsive animacion :)*/
+
+canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111a22;
+}
