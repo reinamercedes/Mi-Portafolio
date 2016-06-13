@@ -1891,6 +1891,8 @@
 			font-weight: normal;
 			text-transform: none !important;
 			color: #00F0FF;
+			font-size: 3em;
+    			letter-spacing: 0.1em;
 		}
 
 		.icon > .label {
@@ -3785,7 +3787,7 @@
 					margin-left: 0;
 					padding-left: 0;
 					font-family: "Poiret One";
-    					font-size: 2em;
+    					font-size: 1em;
     					text-transform: uppercase;
     					letter-spacing: 0.3em;
     					font-weight: 100;
@@ -3885,6 +3887,7 @@ canvas{
 
 /*percent*/
 .chart {
+  margin-left: 23%;
   position: relative;
   display: inline-block;
   color: #999;
@@ -3958,7 +3961,7 @@ canvas{
 
 .outer {
   fill: transparent;
-  stroke: #333;
+  stroke: #00FFCC;
   stroke-width: 20;
   stroke-dasharray: 534;
   transition: stroke-dashoffset 1s;
@@ -3982,22 +3985,34 @@ canvas{
   animation: show100 2s;
 }
 
-.chart[data-percent='75'] .outer {
-  stroke-dashoffset: 133;
-  -webkit-animation: show75 2s;
-  animation: show75 2s;
+.chart[data-percent='85'] .outer {
+  stroke-dashoffset: 95;
+  -webkit-animation: show85 2s;
+  animation: show85 2s;
 }
 
-.chart[data-percent='50'] .outer {
-  stroke-dashoffset: 267;
+.chart[data-percent='40'] .outer {
+  stroke-dashoffset: 328;
+  -webkit-animation: show328 2s;
+  animation: show328 2s;
+}
+
+.chart[data-percent='35'] .outer {
+  stroke-dashoffset: 350;
+  -webkit-animation: show350 2s;
+  animation: show350 2s;
+}
+
+.chart[data-percent='60'] .outer {
+  stroke-dashoffset: 222;
+  -webkit-animation: show222 2s;
+  animation: show222 2s;
+}
+
+.chart[data-percent='90'] .outer {
+  stroke-dashoffset: 50;
   -webkit-animation: show50 2s;
   animation: show50 2s;
-}
-
-.chart[data-percent='25'] .outer {
-  stroke-dashoffset: 401;
-  -webkit-animation: show25 2s;
-  animation: show25 2s;
 }
 /* END set initial animation values */
 
@@ -4082,3 +4097,7 @@ canvas{
   }
 }
 /* END Keyframes for the initial animation */
+
+.right {
+	text-align: right!important;
+}
